@@ -1,0 +1,395 @@
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1300px;
+    width: 100%;
+
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 73px 10px 60px 9px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 66px;
+}
+
+nav ul li a{
+    color: gray;
+    text-decoration: none;
+}
+
+nav ul li:hover a{
+    color: #ffffff;
+}
+
+.bannerArea{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 70px;
+}
+
+.bannerArea img{
+    max-width: 100%;
+    height: auto;
+}
+
+.bannerArea .content02{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 700px;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.bannerArea .content02 h1{
+    font-size: 40px;
+    font-family: Raleway;
+    line-height: 51px;
+    font-weight: 700;
+}
+
+.bannerArea .content02 p{
+    font-size: 23px;
+    font-family: Open Sans;
+    line-height: 32px;
+}
+
+.bannerArea .content02 .btn01{
+    max-width: 285px;
+    width: 100%;
+    margin-top: 24px;
+    padding: 19px 0;
+    font-size: 14px;
+    text-align: center;
+    background-color: hsl(198, 60%, 50%);
+    color: #ffffff;
+    border-radius: 48px;
+}
+
+.serviceArea {
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 99px;
+    grid-row-gap: 76px;
+    margin: 110px auto 136px;
+}
+
+.serviceArea .boxContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.boxContainer h2{
+    font-size: 18px;
+    font-family: Raleway;
+    font-weight: 700;
+}
+
+.boxContainer p{
+    font-size: 15px;
+    font-family: Open Sans;
+    line-height: 20px;
+}
+
+.bannerArea02{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
+}
+
+.imgContainer01 img{
+    width: 663px;
+    height: auto;
+}
+
+.bannerArea02 .content01 h2{
+    font-size: 48px;
+    font-family: Raleway;
+    font-weight: 700;
+}
+
+.bannerArea02 .content01 p{
+    font-size: 16px;
+    font-family: Open Sans;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.bannerArea02 .content01 a{
+    margin-top: 20px !important;
+    font-size: 16px;
+    font-family: Open Sans;
+    color: hsl(198, 60%, 50%);
+}
+
+.commentsContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 160px;
+}
+
+
+.comment01{
+    padding: 30px 30px 20px;
+}
+
+.comment01 p{
+    font-size: 15px;
+    font-family: Open Sans;
+    line-height: 24px;
+}
+
+.comment01 .profileContainer img{
+    width: 40px;
+    min-height: 40px;
+    border-radius: 50%;
+}
+
+.bg03{
+    background-color: hsl(219, 29%, 18%);
+}
+
+.profileContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.profileDetails h2{
+    font-size: 14px;
+    font-family: Raleway;
+    font-weight: 700;
+}
+
+.profileDetails p{
+    font-size: 10px;
+    font-family: Open Sans;
+}
+
+.accessContainer{
+    position: relative;
+    top: 202px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 862px;
+    width: 100%;
+    padding: 54px 94px;
+    background-color: hsl(219, 29%, 18%);
+
+}
+
+.accessContainer h2{
+    font-size: 36px;
+    font-family: Raleway;
+    font-weight: 700;
+}
+
+.accessContainer p {
+    margin-top: 20px;
+    font-size: 14px;
+    font-family: Open Sans;
+    line-height: 24px;
+    text-align: center;
+}
+
+.accessContainer form{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.accessContainer form input[type=email]{
+    width: 400px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.accessContainer form input[type=submit]{
+    width: 200px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: hsl(198, 60%, 50%);
+    color: #ffffff;
+
+}
+
+footer{
+    max-width: 1200px;
+    padding: 200px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer01, .footer02, .footer03, .footer04{
+    max-width: 300px;
+}
+
+.footer01 ul li a, .footer02 ul li a, .footer03 ul li a, .footer04 ul li a{
+    color: gray;
+    text-decoration: none;
+}
+
+.footer01 ul li:hover a, .footer02 ul li:hover a, .footer03 ul li:hover a, .footer04 ul li:hover a{
+    color: #ffffff;
+}
+
+.fbg01{
+    max-width: 100%;
+    width: 100%;
+    background-color: hsl(216, 53%, 9%);
+}
+
+.footerAddress p {
+    line-height: 20px;
+}
+.cm01{
+    margin-top: 104px;
+}
+
+.col01{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 24px;
+    gap: 30px;
+}
+
+.col01 a{
+    color: #ffffff;
+}
+
+@media only screen and (max-width:1024px) { 
+	/* CSS rules here */
+    nav{
+        padding-inline: 23px;
+    }
+    .bannerArea02{
+        gap: 30px;
+        padding-inline:30px ;
+        flex-direction: column;
+    }
+
+    .commentsContainer{
+        padding-inline:23px ;
+    }
+
+    footer{
+        padding-inline: 30px;
+    }
+}
+@media only screen and (max-width:900px){
+    .serviceArea {
+        grid-template-columns: repeat(1, 400px);
+    }
+
+    .imgContainer01 img{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:768px){
+    header{
+        padding: 20px 10px 60px 9px
+    }
+    nav ul{
+        gap: 12px;
+    }
+
+    .headerLogo img{
+        width: 80%;
+        height: auto;
+    }
+
+    .accessContainer{
+        width: 93%;
+        padding: 54px 24px;
+    }
+
+    .accessContainer h2{
+        text-align: center;
+        font-size: 23px;
+    }
+
+    .accessContainer form {
+        flex-direction: column;
+    }
+
+    .accessContainer form input[type=email]{
+        width: 100%;
+        padding: 10px;
+        border-radius: 30px;
+    }
+    .accessContainer form input[type=submit]{
+        width:100%;
+        padding: 10px;
+        border-radius: 30px;
+        background-color: hsl(198, 60%, 50%);
+        color: #ffffff;
+    }
+
+    footer{
+        gap: 0;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+
+    .commentsContainer{
+        flex-direction: column;
+    }
+
+}
+
+@media only screen and (max-width:375px){
+    nav ul {
+        font-size: 12px;
+        gap: 8px;
+    }
+
+    .boxContainer{
+        padding: 23px;
+    }
+}
+
+
